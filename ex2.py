@@ -1,0 +1,3 @@
+# comments are with a pound
+
+print "i can comment after the end of a line" # ....

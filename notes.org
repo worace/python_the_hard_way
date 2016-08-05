@@ -1,0 +1,25 @@
+* Learn Python the Hard Way Notes
+** Observations
+ * optional parens invoking functions (at least in some contexts)
+ * variadic print function
+ * Standard arithmetic operator precedence
+ * snake_case var names
+ * dynamic var types
+ * ints cast to floats in mixed arithmetic
+   #+BEGIN_SRC python
+   type(1 * 1.0)
+   <type 'float'>
+   #+END_SRC
+ * NameError format: =NameError: name 'average_passengers_per_car' is not defined=
+ * %r formatter is a bit like ruby inspect -- gives programmer style format
+ * can do destructuring assignment (=a,b = [1,2]=), but seems to only work with equal number of values
+ * Current epoch seconds:
+   #+BEGIN_SRC python
+   from time import time
+   int(time())
+   #+END_SRC
+
+
+** Questions
+ * Encoding String: =# -*- coding: utf-8 -*-= -- when is this necessary?
+ * Double-quoted vs single quoted strings -- matter?
