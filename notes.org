@@ -18,6 +18,13 @@
    from time import time
    int(time())
    #+END_SRC
+ * *EXPLICIT RETURNS*
+ * Importing:
+    * each file is treated as a module
+    * import the module by the filename (eg file =time.py= then =import time=)
+    * module import names module as itself; lets us refer to nested identifiers with dot notation
+    * also can import explicit names (functions) from a module =import pizza from italian_food= would find
+      =def pizza...= in file =italian_food.py=
 
 
 ** Questions
