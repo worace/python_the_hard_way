@@ -25,7 +25,9 @@
     * module import names module as itself; lets us refer to nested identifiers with dot notation
     * also can import explicit names (functions) from a module =import pizza from italian_food= would find
       =def pizza...= in file =italian_food.py=
-
+    * relevant: http://stackoverflow.com/questions/106896/how-many-python-classes-should-i-put-in-one-file
+    * http://effbot.org/zone/import-confusion.htm
+    * Circular imports seem to be allowed but still maybe not ideal?
 
 ** Questions
  * Encoding String: =# -*- coding: utf-8 -*-= -- when is this necessary?
