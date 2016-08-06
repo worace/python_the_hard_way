@@ -28,7 +28,24 @@
     * relevant: http://stackoverflow.com/questions/106896/how-many-python-classes-should-i-put-in-one-file
     * http://effbot.org/zone/import-confusion.htm
     * Circular imports seem to be allowed but still maybe not ideal?
+  * =map=, =reduce=, etc are built-in functions rather than methods on lists
+  * for or if blocks can have the body inlined on same line
+  * classes are created with class keyword
+  * class can accept an arg when defined -- seems to be superclass
+  * method receiver is always passed as implicit first argument; have to accept this as an arg in methods for it to work
+  * dicts are heterogeneous
+  * Index a key with []; indexing missing key gives KeyError
+  * also fetcha  key with =get=; =get= on missing key returns None
+  * =get= takes default as in ruby
+  * =dict.items()= to enumerate keys and values as tuples
+  * make a dict from list of tuples with:
+
+    #+BEGIN_SRC python
+    dict([["k1", "v1"], ["k2", "v2"]])
+    #+END_SRC
+
 
 ** Questions
  * Encoding String: =# -*- coding: utf-8 -*-= -- when is this necessary?
  * Double-quoted vs single quoted strings -- matter?
+ * Thread-Macro / Function Piping -- is this legit? https://mdk.fr/blog/pipe-infix-syntax-for-python.html
