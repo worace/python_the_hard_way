@@ -43,6 +43,16 @@
     #+BEGIN_SRC python
     dict([["k1", "v1"], ["k2", "v2"]])
     #+END_SRC
+  * every file makes a module
+  * modules are basically a dict that stores the functions under their names
+  * top-level vars declared in a module are accessible this way as well
+  * =def __init__(self,...)= is constructor
+  * instance level properties stored internally in =__dict__= property of the object
+  * =object= is default super class -- can make one with =object()=
+  * testing with nose (=nosetests= executable)
+  * install nose-watch plugin =pip install nose-watch=
+  * then can use --with-watch flag for autorunner: =nosetests --with-watch=
+
 
 
 ** Questions

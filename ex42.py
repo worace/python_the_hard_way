@@ -89,3 +89,8 @@ print "--------------"
 
 dad.override()
 son.override()
+
+print "--------------"
+
+dad.altered()
+son.altered()

@@ -17,3 +17,6 @@ def test_square():
 def test_negate():
     print sample.math.negate
     assert_equal( -1, sample.math.negate(1))
+
+def test_truth():
+    assert True

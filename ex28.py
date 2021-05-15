@@ -29,4 +29,4 @@ if people == dogs:
     print "People are dogs."
 
 
-if False: print "needs a body?"
+if True: print "needs a body?"

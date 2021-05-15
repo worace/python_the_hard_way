@@ -46,3 +46,9 @@ for state, abbrev in states.items():
 
 for state, abbrev in states.items():
     print "%s has city: %s" % (state, cities[abbrev])
+
+
+print states.keys()
+print dict(map(lambda abbrev:
+               [abbrev, cities[abbrev]],
+               states.values()))
